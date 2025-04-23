@@ -9,7 +9,12 @@
     "registrationNumber": "BD-MC-846912",
     "fee": "1000",
     "designation": "Senior Consultant",
-    "workplace": "City Heart Hospital"
+    "workplace": "City Heart Hospital",
+    "availability": [
+      { "day": "Monday" },
+      { "day": "Wednesday" },
+      { "day": "Friday" }
+    ]
   },
   {
     "id": 2,
@@ -21,7 +26,12 @@
     "registrationNumber": "BD-MC-927413",
     "fee": "600",
     "designation": "Consultant Neurologist",
-    "workplace": "NeuroCare Clinic"
+    "workplace": "NeuroCare Clinic",
+    "availability": [
+      { "day": "Tuesday" },
+      { "day": "Thursday" },
+      { "day": "Saturday" }
+    ]
   },
   {
     "id": 3,
@@ -33,7 +43,12 @@
     "registrationNumber": "BD-MC-135792",
     "fee": "900",
     "designation": "Orthopedic Surgeon",
-    "workplace": "Bone & Joint Center"
+    "workplace": "Bone & Joint Center",
+    "availability": [
+      { "day": "Monday" },
+      { "day": "Tuesday" },
+      { "day": "Thursday" }
+    ]
   },
   {
     "id": 4,
@@ -45,7 +60,12 @@
     "registrationNumber": "BD-MC-246813",
     "fee": "800",
     "designation": "Pediatric Consultant",
-    "workplace": "KidsCare Hospital"
+    "workplace": "KidsCare Hospital",
+    "availability": [
+      { "day": "Wednesday" },
+      { "day": "Friday" },
+      { "day": "Sunday" }
+    ]
   },
   {
     "id": 5,
@@ -57,7 +77,12 @@
     "registrationNumber": "BD-MC-357914",
     "fee": "700",
     "designation": "Chief Gastroenterologist",
-    "workplace": "Digestive Health Institute"
+    "workplace": "Digestive Health Institute",
+    "availability": [
+      { "day": "Tuesday" },
+      { "day": "Thursday" },
+      { "day": "Saturday" }
+    ]
   },
   {
     "id": 6,
@@ -69,7 +94,12 @@
     "registrationNumber": "BD-MC-468015",
     "fee": "950",
     "designation": "Dermatologist",
-    "workplace": "Skin & Beauty Clinic"
+    "workplace": "Skin & Beauty Clinic",
+    "availability": [
+      { "day": "Monday" },
+      { "day": "Wednesday" },
+      { "day": "Friday" }
+    ]
   },
   {
     "id": 7,
@@ -81,7 +111,12 @@
     "registrationNumber": "BD-MC-579116",
     "fee": "800",
     "designation": "Head of Oncology",
-    "workplace": "Cancer Care Center"
+    "workplace": "Cancer Care Center",
+    "availability": [
+      { "day": "Tuesday" },
+      { "day": "Friday" },
+      { "day": "Sunday" }
+    ]
   },
   {
     "id": 8,
@@ -93,7 +128,12 @@
     "registrationNumber": "BD-MC-680217",
     "fee": "800",
     "designation": "Endocrinology Specialist",
-    "workplace": "Hormone Health Clinic"
+    "workplace": "Hormone Health Clinic",
+    "availability": [
+      { "day": "Monday" },
+      { "day": "Thursday" },
+      { "day": "Saturday" }
+    ]
   },
   {
     "id": 9,
@@ -105,7 +145,12 @@
     "registrationNumber": "BD-MC-791318",
     "fee": "900",
     "designation": "Urology Consultant",
-    "workplace": "UroCare Hospital"
+    "workplace": "UroCare Hospital",
+    "availability": [
+      { "day": "Wednesday" },
+      { "day": "Friday" },
+      { "day": "Sunday" }
+    ]
   },
   {
     "id": 10,
@@ -117,7 +162,12 @@
     "registrationNumber": "BD-MC-802419",
     "fee": "1000",
     "designation": "Gynecologist",
-    "workplace": "Women’s Health Clinic"
+    "workplace": "Women’s Health Clinic",
+    "availability": [
+      { "day": "Tuesday" },
+      { "day": "Thursday" },
+      { "day": "Saturday" }
+    ]
   },
   {
     "id": 11,
@@ -129,7 +179,12 @@
     "registrationNumber": "BD-MC-913520",
     "fee": "500",
     "designation": "Senior Nephrologist",
-    "workplace": "Kidney Care Institute"
+    "workplace": "Kidney Care Institute",
+    "availability": [
+      { "day": "Monday" },
+      { "day": "Wednesday" },
+      { "day": "Friday" }
+    ]
   },
   {
     "id": 12,
@@ -141,6 +196,11 @@
     "registrationNumber": "BD-MC-024621",
     "fee": "850",
     "designation": "Pulmonologist",
-    "workplace": "Lung Health Center"
+    "workplace": "Lung Health Center",
+    "availability": [
+      { "day": "Tuesday" },
+      { "day": "Thursday" },
+      { "day": "Sunday" }
+    ]
   }
 ]

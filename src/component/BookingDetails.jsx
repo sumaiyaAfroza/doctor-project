@@ -12,6 +12,7 @@ const BookingDetails = () => {
   }
  
   const {
+    availability,
     education,
     workplace,
     fee,
@@ -19,6 +20,7 @@ const BookingDetails = () => {
     name,
     registrationNumber,
     speciality,
+    
   } = single;
 
   return (
@@ -26,10 +28,8 @@ const BookingDetails = () => {
       {/*  doctor profile */}
       <div className="bg-white py-5 px-5 md:py-16  md:px-24 text-center ">
         <h1 className="font-bold text-2xl md:text-4xl">Doctor’s Profile Details</h1>
-        <p className="text-lg md:text-xl text-gray-600">
-          Lorem ipsum dolor sit amet consectetur. Sit enim blandit orci tortor
-          amet ut. Suscipit sed est fermentum magna. Quis vitae tempus <br />
-          facilisis turpis imperdiet mattis donec dignissim volutpat.
+        <p className="text-lg md:text-xl mt-5 text-gray-600">
+        Trusted Care, Expertly Delivered.
         </p>
       </div>
 
@@ -65,20 +65,11 @@ const BookingDetails = () => {
 
           <p className="border-b border-dashed"></p>
 
-          <div className="mt-3 md:flex items-center gap-6">
-            <p className="text-xl font-semibold text-gray-700">Available</p>
-            <div className="flex gap-2 mt-1">
-              <span className="bg-yellow-100 text-yellow-800 text-lg font-medium px-3 py-1 rounded-full">
-                Sunday
-              </span>
-              <span className="bg-yellow-100 text-yellow-800 text-lg font-medium px-3 py-1 rounded-full">
-                Monday
-              </span>
-              <span className="bg-yellow-100 text-yellow-800 text-lg font-medium px-3 py-1 rounded-full">
-                Thursday
-              </span>
-            </div>
-          </div>
+          <p className="gap-6 font-bold text-2xl">Available : 
+            {availability.map(day => 
+              <button className="text-[#FFA000] ml-3 text-lg bg-[#FFA0001A] py-2 px-3 font-semibold rounded-lg md:rounded-full"> {day.day}</button>
+            )}
+          </p>
 
 
 

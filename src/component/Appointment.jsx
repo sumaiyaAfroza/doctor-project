@@ -19,8 +19,8 @@ const Appointment = () => {
   return (
     <div>
       <Chartl showBooking={showBooking}></Chartl>
-      <div className="text-center">
-      <h1>My Today Appointments</h1>
+      <div className="text-center my-8">
+      <h1 className='font-bold text-2xl mb-4'>My Today Appointments</h1>
       <p>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.</p>
       </div>
       {showBooking.map(appCard=> <BookingCard removeBooking={removeBooking}  appCard={appCard}></BookingCard>)}

@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 const EmptyState = () => {
   return (
     <div className=" py-16 flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+            <h1 className="text-4xl text-center font-bold text-gray-800 mb-4">
                 You Have not Booked any appointment yet
             </h1>
             <p className="text-gray-600 mb-6 text-center max-w-md">

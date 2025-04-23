@@ -40,5 +40,16 @@ export const removeItem = (id)=>{
     const item = getItem()
     const remainingBooking = item.filter(cut => cut.registrationNumber !== id)
     localStorage.setItem('booking',JSON.stringify(remainingBooking))
+    toast.warn('Appointment Canceled', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+        });
 }
 

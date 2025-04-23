@@ -17,12 +17,12 @@ const MainLayout = () => {
     }, [location.key]);
 
   return (
-    <div className='bg-[#EFEFEF]'>
+    <div className='bg-[#EFEFEF] mx-2'>
         <Navbar></Navbar>
 
 
        <div className='min-h-[500px]'>
-        <div className='max-w-screen-2xl mx-auto px-8 md:px-16'>
+        <div className='max-w-screen-2xl mx-auto px-2 md:px-1'>
         {isLoading ? (
                         <div className='flex justify-center items-center min-h-[calc(100vh-8rem)]'>
                             <span className="loading loading-bars loading-xl"></span>

@@ -5,6 +5,7 @@ import Blogs from "../pages/Blogs";
 import Contact from "../pages/Contact";
 import BookingDetails from "../component/BookingDetails";
 import Appointment from "../component/Appointment";
+import Error from "../pages/Error";
 
 
 export const router = createBrowserRouter([
@@ -19,7 +20,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/bookings',
-                Component:Appointment,
+                Component:Appointment, 
             },
             {
                 path:'/blogs',
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
                 Component: BookingDetails,
                 loader:()=>fetch('/fakeData.json')
                
+            },
+            {
+                path:'*',
+                element: <Error></Error>
             }
         ]
     }

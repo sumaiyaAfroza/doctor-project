@@ -6,7 +6,6 @@ const Blogs = () => {
   const blog = useLoaderData()
   // console.log(blog)
 
- 
   return (
     <div>
       {blog.map(ques => <Blog ques={ques}></Blog> )}

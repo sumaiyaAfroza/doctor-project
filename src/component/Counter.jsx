@@ -41,7 +41,7 @@ const Counter = () => {
                 <img src={item.img} alt={item.label} className="h-14 mb-2" />
                 <h2 className="text-5xl mb-2 mt-4 font-bold">
                   {inView ? (
-                      <CountUp end={item.count} duration={5} separator="," />
+                      <CountUp end={item.count} duration={5} separator="," enableScrollSpy />
                   ) : (
                       0
                   )}

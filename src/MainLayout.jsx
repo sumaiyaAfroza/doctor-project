@@ -17,7 +17,7 @@ const MainLayout = () => {
     }, [location.key]);
 
   return (
-    <div className='bg-[#EFEFEF] mx-2'>
+    <div className='bg-[#EFEFEF] mx-2 plus-jakarta-sans'>
         <Navbar></Navbar>
 
 

@@ -26,5 +26,4 @@ const BookingCard = ({ appCard,removeBooking }) => {
     </div> 
   );
 };
-
 export default BookingCard;
